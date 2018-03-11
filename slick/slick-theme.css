@@ -202,3 +202,14 @@
     opacity: .75;
     color: black;
 }
+@media only screen and (max-width: 575px) {
+    .slick-arrow {
+        z-index: 999;
+    }    
+    .slick-prev {
+        left: -10px;
+    }
+    .slick-next {
+        right: -10px;
+    }
+}
