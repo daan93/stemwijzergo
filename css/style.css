@@ -1,0 +1,16 @@
+main {
+    overflow: hidden;
+}
+
+.slick-slide {
+    height: auto;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #212121;
+}
+
+input[type=checkbox] {
+    width: 24px;
+    height: 24px;
+}
